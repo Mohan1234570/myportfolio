@@ -25,10 +25,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Hii, My Name is Gudumala Mohan Krishna, I did my Bachelor of technology, Mechanical in 
-                   Siddhartha institute of engineering and technology, Hyderabad, I was Trained on Java full stack Developer.
-        </p>
+
       </div>
      {/* Media */}
      <Media />
