@@ -52,7 +52,7 @@ const Contact = () => {
                       name='username'
                     className=
                       "outline-designColor"
-                      
+                      required
                   />
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -63,6 +63,7 @@ const Contact = () => {
                       name='phoneNumber'
                     className=
                       "outline-designColor"
+                      required
                   />
                 </div>
               </div>
@@ -74,6 +75,7 @@ const Contact = () => {
                   name='email'
                   className=
                     "outline-designColor"
+                    required
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -84,6 +86,7 @@ const Contact = () => {
                   name='subject'
                   className=
                     "outline-designColor"
+                    required
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -96,6 +99,7 @@ const Contact = () => {
                      "outline-designColor"
                   cols="30"
                   rows="8"
+                    required
                 ></textarea>
               </div>
               <div className="w-full">
