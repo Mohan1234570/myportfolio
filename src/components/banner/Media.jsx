@@ -18,10 +18,12 @@ const Media = () => {
             <span className='bannerIcon'>
               <FaHtml5 />
             </span>
-            <span className='bannerIcon'>
-              <SiBootstrap />
+            <span className="bannerIcon">
+              <FaNodeJs />
             </span>
-            
+            <span className="bannerIcon">
+              <SiExpress />
+            </span>
             <span className='bannerIcon'>
               <SiMysql />
             </span>
@@ -33,7 +35,7 @@ const Media = () => {
             </span>
             
             <span className='bannerIcon'>
-               <SiAmazonaws />
+               <SiMongodb />
             </span>
           </div>
         </div>
